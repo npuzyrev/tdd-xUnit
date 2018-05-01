@@ -4,3 +4,10 @@ class WasRun:
 
     def testMethod(self):
         self.wasRun = 1
+
+
+
+test = WasRun("testMethod")
+print(test.wasRun)
+test.testMethod()
+print(test.wasRun)
